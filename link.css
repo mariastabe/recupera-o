@@ -1,0 +1,68 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* Cinza claro */
+    color: #555; /* Cinza médio */
+    line-height: 1.6;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #000000; /* Rosa forte */
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra no texto */
+}
+
+h2 {
+    font-size: 2rem;
+    color: #000000; /* Roxo */
+    margin-top: 30px;
+    text-decoration: underline; /* Sublinhado */
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Estilização específica para o texto */
+p {
+    color: #e91e63; /* Rosa */
+}
+
+/* Links */
+a {
+    color: #9c27b0; /* Roxo escuro */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Efeito hover nas fotos */
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out; /* Transição suave */
+}
+
+img:hover {
+    transform: scale(1.05); /* Aumenta um pouco o tamanho */
+    filter: brightness(80%); /* Reduz um pouco o brilho */
+}
